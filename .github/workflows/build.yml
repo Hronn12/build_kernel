@@ -40,4 +40,4 @@ jobs:
           kvm: false
           ccache: false
           release: false
-          extra-make-args: '["-C $(pwd)","O=$(pwd)/out","-j$(nproc)","ARCH=arm64","CROSS_COMPILE=${HOME}/clang/bin/aarch64-linux-gnu-","CC=${HOME}/clang/bin/clang","CLANG_TRIPLE=aarch64-linux-gnu-","LLVM=1","LLVM_IAS=1","AR=${HOME}/clang/bin/llvm-ar","NM=${HOME}/clang/bin/llvm-nm","LD=${HOME}/clang/bin/ld.lld","STRIP=${HOME}/clang/bin/llvm-strip","OBJCOPY=${HOME}/clang/bin/llvm-objcopy","OBJDUMP=${HOME}/clang/bin/llvm-objdump","READELF=${HOME}/clang/bin/llvm-readelf","HOSTCC=${HOME}/clang/bin/clang","HOSTCXX=${HOME}/clang/bin/clang++"]'
+          extra-make-args: '["CROSS_COMPILE=${HOME}/clang/bin/aarch64-linux-gnu-","CC=${HOME}/clang/bin/clang","CLANG_TRIPLE=aarch64-linux-gnu-","LLVM=1","LLVM_IAS=1","AR=${HOME}/clang/bin/llvm-ar","NM=${HOME}/clang/bin/llvm-nm","LD=${HOME}/clang/bin/ld.lld","STRIP=${HOME}/clang/bin/llvm-strip","OBJCOPY=${HOME}/clang/bin/llvm-objcopy","OBJDUMP=${HOME}/clang/bin/llvm-objdump","READELF=${HOME}/clang/bin/llvm-readelf","HOSTCC=${HOME}/clang/bin/clang","HOSTCXX=${HOME}/clang/bin/clang++"]'
