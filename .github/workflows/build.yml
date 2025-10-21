@@ -40,4 +40,4 @@ jobs:
           kvm: false
           ccache: false
           release: false
-          extra-make-args: CROSS_COMPILE=${HOME}/clang/bin/aarch64-linux-gnu-
+          extra-make-args: CMD_CROSS_COMPILE=${HOME}/clang/bin/aarch64-linux-gnu-
