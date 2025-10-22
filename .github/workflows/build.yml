@@ -36,7 +36,7 @@ jobs:
           lxc: false
           lxc-patch: false
           nethunter: true
-          nethunter-patch: true
+          nethunter-patch: false
           kvm: false
           ccache: false
           release: false
