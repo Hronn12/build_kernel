@@ -18,13 +18,14 @@ jobs:
           kernel-url: https://github.com/Peridot-Development/kernel_xiaomi_peridot
           kernel-dir: peridot
           kernel-branch: peridot-u-oss
-          config: generic_auto_defconfig
+          config: gki_defconfig
           arch: arm64
-          aosp-gcc: false
-          aosp-clang: false
+          aosp-gcc: true
+          aosp-clang: true
+          android-version: 14
+          aosp-clang-version: r487747c 
           ksu: false
           ksu-version: main
-          other-clang-url: https://github.com/XSans0/WeebX-Clang/releases/download/WeebX-Clang-19.1.5-release/WeebX-Clang-19.1.5.tar.gz
           disable-lto: true
           anykernel3: true
           depth: 1
