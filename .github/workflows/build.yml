@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Build Kernel
-        uses: dabao1955/kernel_build_action@main
+        uses: Hronn12/kernel_build_action@main
         with:
           kernel-url: https://github.com/Peridot-Development/kernel_xiaomi_peridot
           kernel-dir: peridot
